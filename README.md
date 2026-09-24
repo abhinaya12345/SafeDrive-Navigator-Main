@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# SafeDrive-Navigator-Main
 
-## Project info
+AI and GIS-based framework for predicting accident-prone zones using K-Means, DBSCAN, IoT data, and real-time traffic analysis to improve road safety and emergency response.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Project Overview
 
-## How can I edit this code?
+SafeDrive Navigator is an AI and GIS-based accident prediction and prevention framework designed to identify accident-prone areas and support proactive road safety management.
 
-There are several ways of editing your application.
+The system uses machine learning algorithms, GIS-based visualization, IoT data, and real-time traffic information to analyze accident patterns and identify high-risk zones.
 
-**Use Lovable**
+## Objectives
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* Identify accident-prone zones using machine learning.
+* Analyze accident patterns and risk factors.
+* Visualize accident hotspots using GIS.
+* Support real-time traffic monitoring.
+* Improve emergency response and resource planning.
+* Provide data-driven insights for road safety management.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technologies Used
 
-**Use your preferred IDE**
+* Python
+* Machine Learning
+* K-Means Clustering
+* DBSCAN
+* GIS
+* IoT
+* Real-Time Traffic Data
+* Data Visualization
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Accident hotspot detection
+* Risk zone analysis
+* GIS-based accident visualization
+* Real-time traffic analysis
+* Machine learning-based prediction
+* Emergency response support
 
-Follow these steps:
+## Project Workflow
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Collect accident and traffic data.
+2. Preprocess and clean the data.
+3. Apply K-Means and DBSCAN clustering.
+4. Identify accident-prone zones.
+5. Visualize high-risk locations using GIS.
+6. Analyze traffic and accident patterns.
+7. Provide insights for preventive action.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Expected Outcome
 
-# Step 3: Install the necessary dependencies.
-npm i
+The system aims to help authorities identify high-risk accident zones, improve traffic management, support faster emergency response, and contribute to improved road safety.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
